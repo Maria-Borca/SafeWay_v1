@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".SettingsActivity">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/bg_image"
+        android:elevation="-1dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/settings_background" />
+
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="openPrimary"
+        app:srcCompat="@drawable/left_arrow"
+        android:contentDescription="@string/back_arrow" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:fontFamily="@font/opensans_bold"
+        android:letterSpacing="0.25"
+        android:text="@string/settings"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/background_img" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/background_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_text"
+        app:layout_constraintVertical_bias="0.15">
+
+        <TextView
+            android:id="@+id/language_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:paddingVertical="15sp"
+            android:text="@string/language"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:onClick="openLanguage"
+            app:drawableStartCompat="@drawable/ic_language_icon" />
+
+        <View
+            android:id="@+id/underline_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:paddingVertical="15sp"
+            android:text="@string/about"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:drawablePadding="10dp"
+            android:onClick="openAbout"
+            android:gravity="center_vertical"
+            app:drawableStartCompat="@drawable/ic_about_icon" />
+
+        <View
+            android:id="@+id/underline_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
