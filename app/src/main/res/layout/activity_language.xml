@@ -26,11 +26,11 @@
         android:layout_height="35dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="60dp"
+        android:contentDescription="@string/back_arrow"
+        android:onClick="openSettings"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:onClick="openSettings"
-        app:srcCompat="@drawable/left_arrow"
-        android:contentDescription="@string/back_arrow" />
+        app:srcCompat="@drawable/left_arrow" />
 
     <TextView
         android:id="@+id/title_text"
@@ -67,8 +67,8 @@
             android:layout_height="wrap_content"
             android:buttonTint="@color/white"
             android:fontFamily="@font/opensans_regular"
-            android:text="@string/romanian"
             android:paddingVertical="15sp"
+            android:text="@string/romanian"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
@@ -84,8 +84,8 @@
             android:layout_height="wrap_content"
             android:buttonTint="@color/white"
             android:fontFamily="@font/opensans_regular"
-            android:text="@string/english"
             android:paddingVertical="15sp"
+            android:text="@string/english"
             android:textColor="@color/white"
             android:textSize="20sp" />
 
@@ -95,5 +95,6 @@
             android:layout_height="1dp"
             android:background="@color/white" />
     </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

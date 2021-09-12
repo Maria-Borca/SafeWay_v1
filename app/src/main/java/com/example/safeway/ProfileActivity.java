@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
+import com.example.safeway.model.Translation;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
@@ -24,10 +27,20 @@ public class ProfileActivity extends AppCompatActivity {
 
     private LineChart distanceChart;
 
+    private Translation translation;
+
+    TextView top_achievements;
+    Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(activity_profile);
+
+        top_achievements = findViewById(R.id.top_achievements);
+        button = findViewById(R.id.button);
+
+        translation = Translation.getInstance();
 
         distanceChart = (LineChart) findViewById(R.id.distance_chart);
         distanceChart.setDragEnabled(true);
@@ -61,5 +74,26 @@ public class ProfileActivity extends AppCompatActivity {
     public void openAchievements(View view) {
         Intent intent = new Intent(ProfileActivity.this, AchievementsActivity.class);
         startActivity(intent);
+    }
+
+    public void openTipsAndTricks(View view) {
+        Intent intent = new Intent(ProfileActivity.this, TipsTricksActivity.class);
+        startActivity(intent);
+    }
+
+    public void checkTranslationProfile() {
+        if (translation.getLanguage() == "EN") {
+            top_achievements.setText(R.string.top_achievements);
+            button.setText(R.string.achievements);
+        } else {
+            top_achievements.setText(R.string.top_achievements_ro);
+            button.setText(R.string.achievements_ro);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        checkTranslationProfile();
     }
 }

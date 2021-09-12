@@ -16,7 +16,7 @@ import com.example.safeway.R;
 public class SignUpActivity extends AppCompatActivity {
 
     EditText username, email, password, confirm_password;
-    TextView login;
+    TextView login, title;
     Button signup;
     DBHelper DB;
 
@@ -25,7 +25,6 @@ public class SignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-
 
         username= findViewById(R.id.username);
         email= findViewById(R.id.email);

@@ -2,74 +2,239 @@
     <string name="app_name">SafeWay</string>
     <string name="safeway">SafeWay</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login_ro">Autentificare</string>
     <string name="prompt_email">Email</string>
+    <string name="prompt_email_ro">Email</string>
     <string name="prompt_password">Password</string>
+    <string name="prompt_password_ro">Parolă</string>
     <string name="prompt_confirm_password">Confirm password</string>
+    <string name="prompt_confirm_password_ro">Confirmați parola</string>
     <string name="action_sign_in">LOG IN</string>
+    <string name="action_sign_in_ro">AUTENTIFICARE</string>
     <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in_short_ro">Înregistrare</string>
     <string name="welcome">"Welcome !"</string>
+    <string name="welcome_ro">"Bine ați venit !"</string>
     <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_username_ro">Numele de utilizator nu este valid</string>
     <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_password_ro">Parola trebuie să aibă cel puțin 5 caractere</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="login_failed_ro">"Autentificare eșuată"</string>
     <string name="bg_image">bg-image</string>
     <string name="welcome_back">WELCOME BACK</string>
+    <string name="welcome_back_ro">Bine ați revenit!</string>
     <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_ro">Ați uitat parola?</string>
     <string name="remember_me">Remember me</string>
+    <string name="remember_me_ro">Ține-mă conectat</string>
     <string name="title_activity_sign_up">SignUpActivity</string>
     <string name="sign_up">SIGN UP</string>
+    <string name="sign_up_ro">ÎNREGISTREAZĂ-TE</string>
     <string name="name">Name</string>
+    <string name="name_ro">Nume</string>
     <string name="signup_title">HELLO THERE</string>
+    <string name="signup_title_ro">SALUT</string>
     <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_settings_ro">SettingsActivity</string>
+    <string name="drive_safely">Drive Safely!</string>
+    <string name="drive_safely_ro">Condu în siguranță!</string>
+    <string name="we_ve_got_you_covered">We\'ve got you covered behind the scenes.</string>
+    <string name="we_ve_got_you_covered_ro">Avem grijă de tine din spatele scenelor.</string>
+    <string name="start_driving_safer">Start driving safer</string>
+    <string name="start_driving_safer_ro">Începe să conduci mai în siguranță</string>
+
 
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
+    <string name="messages_header_ro">Mesaje</string>
     <string name="sync_header">Sync</string>
+    <string name="sync_header_ro">Sincronizare</string>
 
     <!-- Messages Preferences -->
     <string name="signature_title">Your signature</string>
+    <string name="signature_title_ro">Semnătura dumneavoastră</string>
     <string name="reply_title">Default reply action</string>
+    <string name="reply_title_ro">Răspuns implicit</string>
 
     <!-- Sync Preferences -->
     <string name="sync_title">Sync email periodically</string>
+    <string name="sync_title_ro">Sincronizează emailul periodic</string>
     <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_title_ro">Descărcați atașamentele primite</string>
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
+    <string name="attachment_summary_on_ro">Descărcați automat atașamentele din emailurile primite</string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="attachment_summary_off_ro">Descărcați doar atașamentele solicitate manual</string>
     <string name="user_email">marc.vana@yahoo.com</string>
     <string name="top_achievements">Top Achievements</string>
+    <string name="top_achievements_ro">Cele mai bune realizări</string>
     <string name="title_activity_primary">PrimaryActivity</string>
+
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
+    <string name="first_fragment_label_ro">Primul fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="second_fragment_label_ro">Al doilea fragment</string>
     <string name="next">Next</string>
+    <string name="next_ro">Următorul</string>
     <string name="previous">Previous</string>
+    <string name="previous_ro">Anterior</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="team_dev">Developed by <b>ITnovation</b></string>
+    <string name="team_dev_ro">Dezvoltat de <b>ITnovation</b></string>
     <string name="settings">Settings</string>
+    <string name="settings_ro">Setări</string>
     <string name="audio">Audio</string>
+    <string name="audio_ro">Audio</string>
     <string name="notifications">Notifications</string>
+    <string name="notifications_ro">Notificări</string>
     <string name="preferences">Preferences</string>
+    <string name="preferences_ro">Preferințe</string>
     <string name="language">Language</string>
+    <string name="language_ro">Limbă</string>
     <string name="about">About</string>
+    <string name="about_ro">Despre</string>
     <string name="back_arrow">back_arrow</string>
     <string name="username">Marc-Aurelius Vana</string>
-    <string name="user_about">I am a passionate driver who likes to be the change the world needs.</string>
-    <string name="quota_up">❝</string>
-    <string name="quota_down">❠</string>
     <string name="english">English</string>
+    <string name="english_ro">Engleză</string>
     <string name="romanian">Română</string>
     <string name="about_project">About the project</string>
+    <string name="about_project_ro">Despre proiect</string>
     <string name="about_paragraph_1">SafeWay is a comprehensive safety system designed to help you drive safer, protecting both you and others. The system incorporates a large number of various functionalities that will increase your safety while driving. It is made using state-of-the-art technologies, such as artificial intelligence. SafeWay brings traffic safety to a whole new level. It is very well optimized, the risks being 0. The system does not control your vehicle! This way, there will be no errors or malfunctions that will endanger your life or the lives of those around you. Trust is an important factor that should not be lacking in this world.</string>
+    <string name="about_paragraph_1_ro">SafeWay este un sistem amplu de siguranță conceput pentru a vă ajuta să conduceți mai sigur, protejându-vă atât pe dumneavoastră cât și pe cei din jur. Sistemul încorporează un număr mare de diferite funcționalități care vă vor spori siguranța în timp ce conduceți. Este realizat folosind tehnologii de ultimă generație, cum ar fi inteligența artificială. SafeWay aduce siguranța traficului la un cu totul alt nivel. Este foarte bine optimizat, riscurile fiind aproape de 0. Sistemul nu vă controlează vehiculul! În acest fel nu vor exista erori sau defecțiuni care vă vor pune viața dumneavoastră sau a celor din jur în pericol. Încrederea este un factor important care nu ar trebui să lipsească din această lume.</string>
     <string name="about_paragraph_2">Take part in the change the world needs!</string>
+    <string name="about_paragraph_2_ro">Luați parte la schimbarea de care lumea are nevoie!</string>
     <string name="prompt_username">Username</string>
+    <string name="prompt_username_ro">Nume de utilizator</string>
     <string name="forgot_password_2">FORGOT PASSWORD</string>
+    <string name="forgot_password_2_ro">AȚI UITAT PAROLA</string>
     <string name="reset_password">Reset password</string>
+    <string name="reset_password_ro">Resetează parola</string>
     <string name="new_password">New password</string>
-    <string name="achievements">achievements</string>
+    <string name="new_password_ro">Parolă nouă</string>
+    <string name="achievements">Achievements</string>
+    <string name="achievements_ro">Realizări</string>
     <string name="total_distance">Total distance</string>
+    <string name="total_distance_ro">Distanță totală</string>
     <string name="daily_distance">Daily distance</string>
+    <string name="daily_distance_ro">Distanță zilnică</string>
     <string name="speed_limit">Speed limit</string>
+    <string name="speed_limit_ro">Limită de viteză</string>
     <string name="taking_breaks">Taking breaks</string>
+    <string name="taking_breaks_ro">Respectarea pauzelor</string>
+    <string name="tips_and_tricks"><![CDATA[Tips & Tricks]]></string>
+    <string name="important">Important</string>
+    <string name="important_ro">Importante</string>
+    <string name="for_beginners">For beginners</string>
+    <string name="for_beginners_ro">Pentru începători</string>
+    <string name="good_to_know">Good to know</string>
+    <string name="good_to_know_ro">Folositoare</string>
+    <string name="important_tips_tricks"><![CDATA[Important tips & tricks]]></string>
+    <string name="important_tips_tricks_ro">Sfaturi importante</string>
+    <string name="good_to_know_tips_tricks"><![CDATA[Good to know tips & tricks]]></string>
+    <string name="good_to_know_tips_tricks_ro">Sfaturi folositoare</string>
+    <string name="tips_tricks_for_beginners"><![CDATA[Tips & Tricks for beginners]]></string>
+    <string name="tips_tricks_for_beginners_ro">Sfaturi pentru începători</string>
+
+    <!-- Tips and tricks -->
+
+    <!-- Important -->
+    <string name="tip1">1. Never drive drunk! Even an over-the-counter cold medication can alter your response times, so assess yourself honestly before deciding to drive. The average drinker can only metabolize one drink per hour. One drink equates to 12 ounces of beer, or 5 ounces of wine, or 1.5 ounces of distilled spirits. If you are under the influence of any mind-altering substance, stay away from the wheel. Everyday 28 people die daily in the U.S. from drunk driving accidents.</string>
+    <string name="tip1_ro">1. Nu conduceți niciodată când vă aflați sub influența alcolului! Chiar și un medicament pentru prescripție medicală fără prescripție medicală vă poate modifica timpul de răspuns, deci evaluați-vă cu sinceritate înainte de a decide să conduceți. Consumatorul mediu poate metaboliza o singură băutură pe oră. O băutură echivalează cu 12 grame de bere sau 5 grame de vin sau 1,5 grame de băuturi spirtoase distilate. Dacă vă aflați sub influența oricărei substanțe care modifică mintea, stați departe de roti. În fiecare zi, 28 de persoane mor în SUA din cauza accidentelor de conducere în stare de ebrietate.</string>
+    <string name="tip2">2. Be extra careful near schools! Streets near schools often have reduced speed limits during school hours. Speed limit is 15 mph instead of 25 mph that are designated by signs with flashing lights. Though this limit may seem excessively low when you do not see any children, small kids can hide easily or make sudden movements.</string>
+    <string name="tip2_ro">2. Fiți foarte atenți în apropierea școlilor! Străzile din apropierea școlilor au adesea limite de viteză reduse în timpul orelor de școală. Limita de viteză este de 15 km/h în loc de 25 km/h, care sunt desemnate prin semne cu lumini intermitente. Deși această limită poate părea excesiv de mică atunci când nu vedeți copii, copiii mici se pot ascunde ușor sau pot face mișcări bruște.</string>
+    <string name="tip3">3. If you are sleepy don’t drive! You want to reach your destination as soon as possible but if your eyes give emergency alert, do not insist driving. Just pull over your car and take a quick nap at least 20 minutes. Being late is better than being dead.</string>
+    <string name="tip3_ro">3. Nu conduceți dacă sunteți obosiți! Vrei să ajungi la destinație cât mai curând posibil, dar dacă ochii tăi dau o alertă de urgență, nu insista să conduci. Trageți pe dreapta mașină și trageți un pui de somn rapid cel puțin 20 de minute. A întârzia este mai bine decât a fi mort.</string>
+    <string name="tip4">4. Always signal in advance! Confusion is the enemy of safe driving. Make your lane changes and turns predictable and smooth, and always signal in advance. “Nationwide, neglected or improper turn signals cause 2 million car accidents a year,” says Richard Ponziani, who conducted a recent study for the Society of Automotive Engineers. Failure to signal can invalidate your insurance claim after an accident, which means you will be financially responsible for any damage caused.</string>
+    <string name="tip4_ro">4. Semnalizați întotdeauna! Confuzia este inamicul conducerii în siguranță. Faceți schimbările și virajele de bandă previzibile și netede și semnalizați întotdeauna în avans. „Semnalizatoarele naționale, neglijate sau necorespunzătoare cauzează 2 milioane de accidente auto pe an”, spune Richard Ponziani, care a realizat un studiu recent pentru Societatea Inginerilor din Automobile. Nerespectarea semnalului vă poate declara cererea de asigurare după un accident, ceea ce înseamnă că veți fi responsabil financiar pentru orice daune cauzate.</string>
+    <string name="tip5">5. Monitor your blind spots! This is especially true of large vehicles, such as tractor-trailers. The rule of thumb for Defensive Driving is that if you can’t see the driver in the truck mirror, he can’t see you either. Accidents involving semi- trucks often prove fatal for the driver of a car.</string>
+    <string name="tip5_ro">5. Monitorizează punctele moarte! Acest lucru este valabil mai ales pentru vehiculele mari, cum ar fi tractoarele cu remorca. Regula generală pentru conducerea defensivă este că, dacă nu puteți vedea șoferul în oglinda camionului, nici el nu vă poate vedea. Accidentele care implică semiremorcile se dovedesc adesea fatale pentru șoferul unei mașini.</string>
+    <string name="tip6">6. Pack an emergency kit! Have a first-aid kit handy in case you find yourself or some other road user in an emergency situation. Also keep road flare, flashlight with a pair of fresh batteries, jumper cables, drinking water, and a phone charger in your vehicle in case you need to dial 911 or roadside assistance.</string>
+    <string name="tip6_ro">6. Preătiți o trusă de prim ajutor! Aveți la îndemână o trusă de prim ajutor în cazul în care vă aflați dvs. sau un alt utilizator al drumului într-o situație de urgență. Păstrați, de asemenea, flare-ul rutier, lanterna cu o pereche de baterii proaspete, cabluri jumper, apă potabilă și un încărcător de telefon în vehicul, în cazul în care trebuie să formați 112 sau asistență rutieră.</string>
+    <string name="tip7">7. Don’t stare at oncoming lights! When driving at night your eyes get used to the dim glow of the dashboard and the road ahead which makes it easy to be disrupted by bright headlights. If you have to, shield your eyes with one palm or turn your gaze away from oncoming high beams. Suppose it’s a car behind you that’s the source of distraction, you can easily adjust your rear or side view mirror to get the reflection away from your eyes.</string>
+    <string name="tip7_ro">7. Nu vă uitați la luminile care se apropie. Când conduceți noaptea, ochii vă obișnuiesc cu strălucirea slabă a tabloului de bord și cu drumul din față, ceea ce face ușor să fie perturbat de farurile luminoase. Dacă trebuie, protejați-vă ochii cu o singură palmă sau îndepărtați-vă privirea de razele înalte care se apropie. Totusi recomandat este sa urmaresti linia din dreapta drumui care determina unde se termina linia si unde incepe trotuarul unde este cazul. Să presupunem că este o mașină în spatele tău, care este sursa de distragere a atenției, îți poți regla cu ușurință oglinda retrovizoare sau laterală pentru a obține reflexia departe de ochi.</string>
+    <string name="tip8">8. Take regular breaks! Long-distance driving has a way of eating away at your attentiveness, that’s why it is recommended to take regular breaks to refresh your mind more so if you’re driving at night you can make a stop every two hours and simply walk around the car a couple of times while sipping your coffee to wake your mind.</string>
+    <string name="tip8_ro">8. Luați pauze regulate! Conducerea pe distanțe lungi are un mod de a vă distra atenția, de aceea este recomandat să faceți pauze regulate pentru a vă reîmprospăta mintea mai mult, deci dacă conduceți noaptea, puteți face o oprire la fiecare două ore și puteți merge pur și simplu în jurul mașinii de câteva ori în timp ce savurați cafeaua pentru a vă trezi mintea.</string>
+    <string name="tip9">9. Pull over if you don’t feel like something is right! If you can barely make out the car ahead of you because of the rain, then you need to find a safe place – away from the road – and wait for the storm to subside. Better to arrive late than never.</string>
+    <string name="tip9_ro">9. Trageți pe dreapta dacă simțiți că ceva nu e în regulă. Dacă abia distingeți mașina din față din cauza ploii, atunci trebuie să găsiți un loc sigur - departe de drum - și să așteptați ca furtuna să dispară. Mai bine să ajungi târziu decât niciodată.</string>
+    <string name="tip10">10. Driving through water: Be very cautious where water has flooded onto the road. It is not advisable to drive through moving water if you cannot see the bottom of it. Slowly drive through the water, if it rises above the bottom of your doors, attempting to drive through could cause electrical damage and leave you with a heavy repair bill or worse, water might get into the engine forcing you to replace it.</string>
+    <string name="tip10_ro">10. Condusul prin apă: Fiți foarte precauți acolo unde apa a inundat drumul. Nu este recomandabil să conduceți prin apă în mișcare dacă nu puteți vedea fundul acesteia. Conduceți încet prin apă, dacă se ridică deasupra fundului ușilor, încercarea de a conduce poate provoca daune electrice și vă poate lăsa cu o factură de reparații sau, mai rău, apa ar putea pătrunde în motor, forțându-vă să il înlocuiți.</string>
+    <string name="tip11">11. Don’t use handheld devices while driving! It is illegal in most states using handheld devices while driving. Many modern cars have advanced Bluetooth systems that allow for hands free speech. You can adjust your car before hitting the road. Also don’t text while driving.</string>
+    <string name="tip11_ro">12. Nu utilizați dispozitivele portabile în timp ce conduceți! Este ilegal în majoritatea statelor utilizearea dispozitive portabile în timp ce conduceți. Multe mașini moderne au sisteme Bluetooth avansate care permit sa nu iti folosesti maine pentru alte distrageri. Puteți să vă reglați mașina înainte de a porni la drum. De asemenea, nu trimiteți mesaje text în timp ce conduceți.</string>
+
+
+    <!-- Good to know-->
+    <string name="tip12">1. Did you know that if you go at a speed of 50 kilometers per hour and sneeze, you cross about 10 m without seeing in front?</string>
+    <string name="tip12_ro">1. Stiai ca daca mergi cu viteza de 50 de kilometric la ora si stranuti, traversezi aproximativ 10 m fara sa vezi in fata?</string>
+    <string name="tip13">2. It\'s dangerous to turn the wheels in advance before making a left turn. They must be in the initial position. If a car hits you from the back, you might be thrown into the opposite lane where hitting other cars will be inevitable.</string>
+    <string name="tip13_ro">2. Este periculos să rotiți roțile în avans înainte de a face o virare la stânga. Acestea trebuie să fie în poziția inițială. Dacă o mașină te lovește din spate, s-ar putea să fii aruncat pe banda opusă unde lovirea altor mașini va fi inevitabilă</string>
+    <string name="tip14">3. Many drivers don\'t know that a standard rear-view mirror has 2 modes: day mode and night mode. To avoid being blinded by a car behind you, change the angle of the mirror by pulling down the lever under it.</string>
+    <string name="tip14_ro">3. Mulți șoferi nu știu că o oglindă retrovizoare standard are 2 moduri: modul de zi și modul de noapte. Pentru a evita să fiți orbiți de o mașină din spatele dvs., schimbați unghiul oglinzii trăgând în jos maneta de sub ea.</string>
+   <string name="tip15">4. </string>
+    <string name="tip15_ro">4. Stiai ca poti sa verifici cand ar trebuie sa iti schimbi cauciucurile sau cand sunt prea uzate cu ajutorul unei monede? Dacă vedeți tot capul lui Honest Abe, asta înseamnă că adâncimea benzii de rulare este mai mică decât cea recomandată de 1/16 inci (1,6 mm), ceea ce înseamnă că este timpul să vă îndreptați către magazin și să ridicați un nou set de anvelope înainte de a obține te afli într-o oarecare necaz./  </string>
+    <string name="tip16">5. Thick, rubber floor mats are a great way to prevent your car from getting too dirty in the winter - but they\'re also a great way to get yourself out of a jam, as well! If you\'re ever stuck in the snow (or in the mud during the summer), take the floor mats out of your car and put them underneath your tires. This will help give you the traction you need to get out of even the stickiest situations.</string>
+    <string name="tip16_ro">5. Covoarele groase de cauciuc sunt o modalitate excelentă de a împiedica mașina să se murdărească prea mult iarna - dar sunt și o modalitate excelentă de a te scoate dintr-un blocaj! Dacă v-ați blocat vreodată în zăpadă (sau în noroi în timpul verii), scoateți covorașele din mașină și puneți-le sub cauciucuri. Acest lucru vă va oferi tracțiunea de care aveți nevoie pentru a ieși chiar din cele mai lipicioase situați.</string>
+    <string name="tip17">6. Make sure your seat is comfortable and check all mirrors to make sure you’ve got the best view possible.</string>
+    <string name="tip17_ro">6. Asigurați-vă că scaunul dumneavoastră este comod și verificați toate oglinzile pentru a vă asigura că aveți cea mai bună vedere posibilă.</string>
+    <string name="tip18">7. Watch the weather. Rain, wind and snow can all make driving more difficult and dangerous.</string>
+    <string name="tip18_ro">7. Verificați vremea. Ploaia, vântul și zăpada pot face condusul mult mai dificil și periculos.</string>
+    <string name="tip19">8. Do not force the car and do not try to find its limits.</string>
+    <string name="tip19_ro">8. Nu forțați mașina și nu încercați să îi găsiți limitele.</string>
+    <string name="tip20">9. Try to impose a "ritual" on yourself before starting the engine and setting off.</string>
+    <string name="tip20_ro">9. Încercați să vă impuneți un „ritual” înainte de a porni motorul și de a conduce.</string>
+    <string name="tip21">10. Use the S-turn manoeuvre in left-hand turn lanes.</string>
+    <string name="tip21_ro">10. Utilizați manevra de viraj S în benzi de viraj la stânga.</string>
+    <string name="tip22">11. Get to know about your car\'s safety features.</string>
+    <string name="tip22_ro">11. Aflați mai multe despre caracteristicile de siguranță ale mașinii dvs.</string>
+    <string name="tip23">12. Dry your brakes after driving through a puddle.</string>
+    <string name="tip23_ro">12. Uscați frânele după ce ați condus printr-o baltă.</string>
+    <string name="tip24">13. Watch out for the maneuvers of taller cars in front of you.</string>
+    <string name="tip24_ro">13. Ferește-te de manevrele mașinilor mai mari din fața ta.</string>
+    <string name="tip25">14. If the car doesn\'t start, turn the high beams on.</string>
+    <string name="tip25_ro">14. Dacă mașina nu pornește, porniți luminile de întâlnire.</string>
+    <string name="tip26">15. Turn on the air conditioner. Even when you don\'t use the air conditioner (for example, in winter), turn it on regularly for a short period of time. Otherwise, the coolant will seep out, and the tubes will be dry.</string>
+    <string name="tip26_ro">15. Porniți aparatul de aer condiționat. Chiar și atunci când nu utilizați aparatul de aer condiționat (de exemplu, iarna), porniți-l în mod regulat pentru o perioadă scurtă de timp. În caz contrar, lichidul de răcire se va scurge și tuburile vor fi uscate.</string>
+    <string name="tip27">16. Use the hand brake regularly. Even if you don\'t do angle parking, use the hand brake regularly to keep it alive. The only exception is very cold weather.</string>
+    <string name="tip27_ro">16. Folosiți regulat frâna de mână. Chiar dacă nu faceți parcarea în unghi, utilizați frâna de mână în mod regulat pentru a o menține în viață. Singura excepție este vremea foarte rece.</string>
+    <string name="tip28">17. If a car in the neighboring lane is slowing down, follow suit.</string>
+    <string name="tip28_ro">17. Dacă o mașină pe banda vecină încetinește, urmați exemplul.</string>
+    <string name="tip29">18. Don\'t pump the brakes if your vehicle has anti-lock control.</string>
+    <string name="tip29_ro">18. Nu pompați frânele dacă vehiculul dvs. are control anti-blocare.</string>
+    <string name="tip30">19. A quick flash of the lights or light horn beep are acceptable, nothing more.</string>
+    <string name="tip30_ro">19. Se acceptă o blitz rapidă a luminilor sau un semnal sonor clar, nimic mai mult.</string>
+    <string name="tip31">20. Don\'t cut across three lanes to get to that gas station.</string>
+    <string name="tip31_ro">20. Nu traversați trei benzi pentru a ajunge la benzinărie</string>
+    <string name="tip32">21. Don\'t use cruise control when it\'s raining, or snowing, or anything but fair weather.</string>
+    <string name="tip32_ro">21. Nu utilizați cruise controlul când ploua sau ninge sau nu e vreme frumoasă</string>
+    <string name="tip33">22. Don\'t drive unless both your headlights and taillights are in working order.</string>
+    <string name="tip33_ro">23. Nu conduceți decât dacă farurile și stopurile sunt în stare de funcționare.</string>
+    <string name="tip34">24. Don\'t park over or close to the lines.</string>
+    <string name="tip34_ro">25. Nu parcați peste sau aproape de linii.</string>
+
+
+    <!-- For beginners -->
+    <string name="tip35">1. Don\'t let the illusion of low speed deceive you. On a straight road, the speed seems to be 2 times lower than it really is. If you don\'t slow down before making a turn, the car may begin to skid.</string>
+    <string name="tip35_ro">1. Nu lăsați iluzia vitezei mici să vă înșele. Pe un drum drept, viteza pare a fi de 2 ori mai mică decât este cu adevărat. Dacă nu încetiniți viteza înainte de a face un viraj, mașina poate începe să alunece.</string>
+    <string name="tip36">2. Stay always focused! Distraction is your enemy and the 101 of safe driving starts with focusing. You always have to pay attention the road and your vehicle. A research says that most collisions happen because of distraction. Drivers under 20 are the most prone to distractions.</string>
+    <string name="tip36_ro">2. Stai tot timpul concentrat! Întotdeauna trebuie să fii atent la drum și la vehicul. O cercetare spune că cele mai multe coliziuni se întâmplă din cauza distragerii atenției. Șoferii sub 20 de ani sunt cei mai predispuși la distragerea atenției.</string>
+    <string name="tip37">3. Not every driver is a good driver: You may be a perfect driver with zero penalty points on your driver license. But keep in mind that not every driver is a good driver. So don’t count on other drivers and expect them to make mistakes.</string>
+    <string name="tip37_ro">3. Nu fiecare șofer e un șofer bunȘ Ați putea fi un șofer perfect cu zero puncte de penalizare pe permisul de conducere. Dar rețineți că nu fiecare șofer este un șofer bun. Așadar, nu contați pe alți șoferi și așteptați-vă să facă greșeli</string>
+    <string name="tip38"><![CDATA[4. Do not tailgate: Tailgating leads to rear-end collisions, and you will be the one to foot the bill for the repairs. &#8531; of all traffic accidents are caused by tailgating, and could be prevented with proper distance. Allow at least two or three seconds of lead time in good weather, more in bad weather.]]></string>
+    <string name="tip38_ro"><![CDATA[4. Ne pastrand distanta duce la coliziuni din spate și veți fi cel care va plăti factura pentru reparații. &#8531; din toate accidentele de circulație sunt cauzate de nepastrarea distantei și pot fi prevenite cu o distanță adecvată. Lăsați cel puțin două sau trei secunde de timp de in avans pe vreme bună si mai mult pe vreme rea.]]></string>
+    <string name="tip39">5. Use your headlights wisely:Anytime visibility is impaired on winding roads, during fog, rain, snow, or low light, make sure you can be seen by turning on your headlights. Only use your high beams in low-traffic areas, and turn them down for oncoming drivers.</string>
+    <string name="tip39_ro">5. Folosiți farurile de ceță: Oricând vizibilitatea este afectată pe drumurile sinuoase, pe timp de ceață, ploaie, zăpadă sau lumină slabă, asigurați-vă că puteți fi văzut prin aprinderea farurilor. Folosiți-vă faza lungă numai în zone cu trafic redus și reduceti puterea farurilor pentru soferi care vin din linia opusa.</string>
+    <string name="tip40">6. Learn to feel where the wheels are: You need to learn to feel where the wheels are if you want to avoid potholes and not scratch your hubcaps when parking. Practice the skill by driving the car over a flattened plastic bottle with your left and right front wheels in turn.</string>
+    <string name="tip40_ro">6. Învață unde sunt roțile: Trebuie să învățați să simțiți unde sunt roțile, dacă doriți să evitați gropile și să nu vă zgâriați capacele de butuc atunci când parcați. Practicați abilitatea conducând mașina peste o sticlă de plastic aplatizată, cu roțile din față stânga și dreapta la viraj.</string>
+    <string name="tip41">7. Park guided by your windows and mirrors.</string>
+    <string name="tip41_ro">7. Parcați ghidat de ferestrele și oglinzile dvs.</string>
+    <string name="tip42">8. Keep your eyes on the road. That means no texting, no calling, no eating, no channel surfing on the radio, and no turning around to chat with friends in the backseat. </string>
+    <string name="tip42_ro">8. Stați cu ochii pe drum! Nu scrieți mesaje, nu vorbiți la telefon, nu mâncați, nu navigați pe canalele de la radio și nu vă întoarceți pentru a discuta cu prietenii de pe bancheta din spate.</string>
+
+
 </resources>

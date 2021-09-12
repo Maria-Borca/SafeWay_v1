@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoodToKnowTipsActivity">
+
+    <ImageView
+        android:id="@+id/back_arrow_2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="60dp"
+        android:onClick="openTipsAndTricks"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/right_arrow___copy" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:letterSpacing="0.20"
+        android:text="@string/good_to_know_tips_tricks"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="200dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp">
+
+                <TextView
+                    android:id="@+id/tip1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip12"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip13"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip14"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip15"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip16"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip17"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip18"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip19"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip20"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip21"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip22"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip23"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip24"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip25"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip26"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip27"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip28"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip29"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip30"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip31"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip32"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip33"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <View
+                    android:id="@+id/underline_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="1.5dp"
+                    android:background="#9E9E9E" />
+
+                <TextView
+                    android:id="@+id/tip23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/tip34"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,15 +17,25 @@ import androidx.core.app.ActivityCompat;
 
 import com.example.safeway.model.RestRecommendation;
 import com.example.safeway.model.Runnables.RestRecommendationRunnable;
+import com.example.safeway.model.Translation;
 
 import org.w3c.dom.Text;
 
 public class PrimaryActivity extends AppCompatActivity {
 
+    Translation translation;
+    TextView drive_safely, motto;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_primary);
+
+        drive_safely = findViewById(R.id.title_text);
+        motto = findViewById(R.id.motto);
+
+        translation = Translation.getInstance();
+
 
         TextView viewFunctionalities = (TextView) findViewById(R.id.txt_functionalities_activity);
 
@@ -35,6 +45,8 @@ public class PrimaryActivity extends AppCompatActivity {
                 openFunctionalities();
             }
         });
+
+
     }
 
     public void openFunctionalities () {
@@ -55,5 +67,21 @@ public class PrimaryActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
 
+    }
+
+    public void checkTranslation() {
+        if (translation.getLanguage() == "EN") {
+            drive_safely.setText(R.string.drive_safely);
+            motto.setText(R.string.we_ve_got_you_covered);
+        } else {
+            drive_safely.setText(R.string.drive_safely_ro);
+            motto.setText(R.string.we_ve_got_you_covered_ro);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        checkTranslation();
     }
 }

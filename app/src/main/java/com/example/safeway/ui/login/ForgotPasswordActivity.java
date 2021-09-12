@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.safeway.R;
+import com.example.safeway.model.Translation;
 import com.example.safeway.ui.login.DBHelper;
 
 public class ForgotPasswordActivity extends AppCompatActivity {
@@ -18,10 +20,18 @@ public class ForgotPasswordActivity extends AppCompatActivity {
     Button reset;
     DBHelper DB;
 
+    TextView title;
+
+    Translation translation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forgot_password);
+
+        title = findViewById(R.id.forgot_password_title);
+
+        translation = Translation.getInstance();
 
         username = (EditText) findViewById(R.id.username_reset);
         reset = (Button) findViewById(R.id.btnreset);
@@ -48,5 +58,21 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    public void checkTranslation() {
+        if (translation.getLanguage() == "EN") {
+            title.setText(R.string.forgot_password);
+            reset.setText(R.string.reset_password);
+        } else {
+            title.setText(R.string.forgot_password_ro);
+            reset.setText(R.string.reset_password_ro);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        checkTranslation();
     }
 }

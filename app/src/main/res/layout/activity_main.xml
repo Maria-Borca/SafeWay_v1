@@ -29,7 +29,7 @@
         android:background="@drawable/transparent_btn"
         android:onClick="openSignUp"
         android:padding="15dp"
-        android:text="Start driving safer"
+        android:text="@string/start_driving_safer"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"

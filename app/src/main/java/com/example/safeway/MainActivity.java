@@ -13,8 +13,10 @@ import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.safeway.model.Translation;
 import com.example.safeway.ui.login.LoginActivity;
 import com.example.safeway.ui.login.SignUpActivity;
 
@@ -30,10 +32,19 @@ public class MainActivity extends AppCompatActivity{
 
     Button start_btn;
 
+    Translation translation;
+    TextView team_text;
+    Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        team_text = findViewById(R.id.team_text);
+        button = findViewById(R.id.get_started_btn);
+
+        translation = Translation.getInstance();
 
         start_btn = (Button) findViewById(R.id.get_started_btn);
 
@@ -91,5 +102,21 @@ public class MainActivity extends AppCompatActivity{
                 start_btn.setEnabled(true);
             }
         }
+    }
+
+    public void checkTranslation() {
+        if (translation.getLanguage() == "EN") {
+            button.setText(R.string.start_driving_safer);
+            team_text.setText(R.string.team_dev);
+        } else {
+            button.setText(R.string.start_driving_safer_ro);
+            team_text.setText(R.string.team_dev_ro);
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        checkTranslation();
     }
 }
